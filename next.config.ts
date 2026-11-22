@@ -5,6 +5,16 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   reactCompiler: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "static.noroff.dev",
+        port: "",
+        pathname: "/api/online-shop/**",
+      },
+    ],
+  },
   turbopack: {
     rules: {
       "*.css": {
