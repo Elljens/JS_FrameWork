@@ -1,10 +1,9 @@
-import React from "react";
 import ContactForm from "@/components/ContactForm";
 
 export default function ContactUsPage() {
   return (
     <div>
-      <div className="mx-auto flex max-w-md flex-col text-center p-2">
+      <div className="mx-auto flex max-w-md flex-col text-center p-5">
         <h1 className="font-bold text-3xl p-2">Contact Us</h1>
         <p>Do you have any questions?</p>
         <p>

@@ -92,7 +92,7 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       noValidate
-      className="mx-auto flex max-w-md flex-col"
+      className="mx-auto p-5 flex max-w-md flex-col"
     >
       <div className="flex flex-col py-1">
         <label htmlFor="name">Full Name:</label>
